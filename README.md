@@ -15,7 +15,7 @@ This script injects a floating UI in Leonardo AI's Image Generation page.
 3. Paste this snippet:
 
 ```javascript
-javascript:(()=>{let s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/VOTRE_USERNAME/leonardo-batcher@main/auto-batch-interface.js';document.body.appendChild(s);})()
+javascript:(()=>{let s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/groo78700/leonardo-batcher@main/auto-batch-interface.js';document.body.appendChild(s);})()
 ```
 
 4. Or run it as a local userscript / bookmarklet.
