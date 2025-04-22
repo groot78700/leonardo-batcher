@@ -1,37 +1,38 @@
 [![One-click Leonardo Batch](https://img.shields.io/badge/LeonardoAI-Batch_Prompts-blueviolet?style=for-the-badge&logo=thunderbird)](https://app.leonardo.ai)
 
-# Leonardo Auto Prompt Batcher (Remote TXT Version)
+# ⚡ Générateur automatique de prompts pour Leonardo AI (via fichier `.txt`)
 
-This script injects a floating 📂 button into [Leonardo AI](https://app.leonardo.ai)'s Image Generation page and loads prompts directly from a `.txt` file hosted on GitHub.
-
----
-
-## 🧠 Features
-
-- Load prompts directly from a `.txt` file (hosted publicly on GitHub)
-- No need to paste prompts manually
-- Automatically dispatches them into Leonardo with delay
+Ce script injecte un **bouton flottant 📂** dans [Leonardo AI](https://app.leonardo.ai) qui charge une liste de prompts **directement depuis un fichier `.txt` hébergé sur GitHub**.
 
 ---
 
-## ✅ How to use
+## 🧠 Fonctionnalités
 
-1. Open [https://app.leonardo.ai](https://app.leonardo.ai)
-2. Open Chrome Console (F12 > Console tab)
-3. Paste this snippet:
+- 📥 Charge automatiquement une liste de prompts depuis un fichier `.txt`
+- 💬 Aucun besoin de copier-coller manuellement
+- 🕒 Envoie chaque prompt avec un délai entre chaque génération
+- 🔁 Compatible avec toutes les interfaces classiques de Leonardo
+
+---
+
+## ✅ Comment l’utiliser
+
+1. Ouvre [https://app.leonardo.ai](https://app.leonardo.ai)
+2. Ouvre la **console du navigateur** (F12 > onglet "Console")
+3. Colle ce script et appuie sur Entrée :
 
 ```javascript
 javascript:(()=>{let s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/groot78700/leonardo-batcher@main/auto-batch-from-txt.js';document.body.appendChild(s);})()
 ```
 
-4. Click the 📂 button that appears → it will:
-   - Fetch the prompts from:  
+4. Clique sur le **bouton 📂 "Charger et Générer"**
+   - Il chargera le fichier `.txt` depuis :  
      `https://raw.githubusercontent.com/groot78700/leonardo-batcher/main/prompts_leonardo.txt`
-   - Launch generation one by one
+   - Puis lancera les générations automatiquement
 
 ---
 
-## 📂 Prompt File
+## 📂 Modifier les prompts
 
-You can edit this file anytime:
+Tu peux modifier le fichier à tout moment ici :  
 👉 [`prompts_leonardo.txt`](https://github.com/groot78700/leonardo-batcher/blob/main/prompts_leonardo.txt)
