@@ -1,3 +1,5 @@
+[![One-click Leonardo Batch](https://img.shields.io/badge/LeonardoAI-Batch_Prompts-blueviolet?style=for-the-badge&logo=thunderbird)](https://app.leonardo.ai)
+
 # Leonardo Auto Prompt Batcher (Remote TXT Version)
 
 This script injects a floating 📂 button into [Leonardo AI](https://app.leonardo.ai)'s Image Generation page and loads prompts directly from a `.txt` file hosted on GitHub.
@@ -33,4 +35,3 @@ javascript:(()=>{let s=document.createElement('script');s.src='https://cdn.jsdel
 
 You can edit this file anytime:
 👉 [`prompts_leonardo.txt`](https://github.com/groot78700/leonardo-batcher/blob/main/prompts_leonardo.txt)
-
